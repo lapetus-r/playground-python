@@ -3,7 +3,7 @@ import tabula
 
 pdf_path = "https://github.com/chezou/tabula-py/raw/master/tests/resources/data.pdf"
 
-df = tabula.read_pdf("files/datasheet-cc-8800-1_removed.pdf", stream=True, pages="all")[
+df = tabula.read_pdf("../resources/datasheet-cc-8800-1.pdf", stream=True, pages="all")[
     0
 ]
 df.rename(columns={"(m)": "boom_length", "(m).1": "super_lift_ballast"}, inplace=True)

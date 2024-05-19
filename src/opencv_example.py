@@ -1,7 +1,7 @@
 import cv2
 
 # 이미지 파일 로드
-image = cv2.imread("files/yumtory.png")
+image = cv2.imread("../resources/yumtory.png")
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 

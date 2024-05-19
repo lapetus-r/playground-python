@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-wb = load_workbook(filename="files/Heavy Lift Plan and Delivery Schedule-3.xlsx")
+wb = load_workbook(filename="../resources/Heavy Lift Plan and Delivery Schedule-3.xlsx")
 
 ws = wb["Dress up Items _20200711"]
 
